@@ -1,0 +1,10 @@
+.cards__item {
+  width: 240px;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 0 100px 0 0;
+}
+
+.cards__item:nth-child(3n+3) {
+  padding-right: 0px;
+}
