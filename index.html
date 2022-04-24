@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -19,8 +19,8 @@
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <section class="description">
-        <div class="two-columns">
+      <section class="description" aria-label="Секция со статьей">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -35,38 +35,38 @@
               сделать его
               эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-attention.png" alt="Картинка - Два вида внимания">
+            <img class="cards__image" src="images/cards-attention.png" alt="Картинка - Два вида внимания">
             <p class="cards__title">Два вида внимания</p>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-recall.png" alt="Картинка - Вспоминайте изученное">
+            <img class="cards__image" src="images/cards-recall.png" alt="Картинка - Вспоминайте изученное">
             <p class="cards__title">Recall</p>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-interliving.png" alt="Картинка - Интерливинг">
+            <img class="cards__image" src="images/cards-interliving.png" alt="Картинка - Интерливинг">
             <p class="cards__title">Интерливинг</p>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-question.png" alt="Картинка - Вопросы">
+            <img class="cards__image" src="images/cards-question.png" alt="Картинка - Вопросы">
             <p class="cards__title">Вопросы</p>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-competence.png" alt="Иллюзия компетентности">
+            <img class="cards__image" src="images/cards-competence.png" alt="Иллюзия компетентности">
             <p class="cards__title">Иллюзия компетентности</p>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
@@ -76,13 +76,13 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe></li>
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe></li>
+        </ul>
       </section>
-      <section class="oakley">
-        <div class="two-columns">
+      <section class="oakley" aria-label="Секция со статьей">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
@@ -92,7 +92,7 @@
               добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -143,15 +143,15 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khan__quote-author">Джордж Лукас</p>
+            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          <ul class="khan__book-container">
-            <li><img class="khan__book-pic" src="/images/khan-book.jpg" alt="Книга Сальмана Хана - Весь мир школа"></li>
-            <li><a href="#" class="khan__buy-link">Купить книгу&nbsp;→</a></li>
-          </ul>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="images/khan-book.jpg" alt="Книга Сальмана Хана - Весь мир школа">
+            <a href="#" class="khan__buy-link">Купить книгу&nbsp;→</a>
+          </div>
         </div>
       </section>
       <section class="kaufman">
